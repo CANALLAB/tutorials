@@ -13,7 +13,7 @@ Note: Alternatively, you can change path to the data folder before you enter Hom
 7)	Click File -> Change folder, to set the folder where your data is available.  
 8)	If ‘Loading Processing Option File’ window pops up, click cancel. Creation of processing file (.cfg) is given after few steps. Once you create it, you can select it during this step. Clicking cancel do not hamper the process. 
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/ac1a0781-2dc5-4d5f-9876-672305af1a18)
+![image](./images/Image1.png)
 
 9)	Once the GUI loads your data, you can see the montage, on the right side of the screen. The blue and red lines refers to the trials. The condition is marked by the color difference and legend will be given at the top.
 
