@@ -25,23 +25,23 @@ Note: Alternatively, you can change path to the data folder before you enter Hom
 
 11)	In order to process the data, you need to build a processing stream. Processing stream consists of functions that you would like to do for your data (eg. converting in to concentration, filtering, motion correction). This is done by Click Tools -> Edit Processing Stream. Processing stream editor will be opened.
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/af7ceae2-5ae4-4720-88d6-9198ef4fbef7)
+![image](./images/Image4.png)
 
 12)	This has number of functions that needed to be added for your data processing. Default set up of analysis involves hmrR_Intensity2OD, hmrR_OD2Conc, hmrR_BandpassFilt. Other functions can be added according to your requirement. 
 Note: Click this link to learn about processing streams https://github.com/BUNPC/Homer3/wiki/Processing-Functions
 13)	For simple processing, use hmrR_Intensity2OD, hmrR_OD2Conc, hmrR_BandpassFilt, hmrR_BlockAvg. Click and add those functions in the processing stream editor one by one.
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/b3c93d6c-64a7-43aa-8a01-b15c7a0ccf90) 
+![image](./images/Image5.png)
 
 14)	You can save this processing stream for future use by clicking Save -> Config File (future usage). You can apply the functions on the current data processing by clicking Save ->  Current Processing stream. And close the processing stream window.
 15)	Click Edit Options, to customize the functions according to your data requirements by entering the values. 
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/5f0bcd02-6525-4fcf-98d5-ad0674d93d86)
+![image](./images/Image7.png)
 
 16)	Once you finish editing, click exit. 
 17)	Click Run to proceed with the analysis
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/9ab594cf-8bf8-42f5-ba91-0b9aba7c9ce6)
+![image](./images/Image8.png)
 
 18)	Thus the basic steps to analyze data has been performed. But in order to improve the data quality motion corrections should be done properly depending upon your requirement. Also GLM should be applied to eliminate the short channel impacts. These steps can be performed by adding respective functions in the processing stream.
 
@@ -52,7 +52,7 @@ The basic processing streams typically include four functions (use only if you d
 - hmrR_OD2Conc: converts the filtered optical density to hemoglobin concentration
 - hmrR_BlockAvg: and finally calculates the average hemodynamic response function (HRF)
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/9163e69a-b426-4b7c-a958-9a936e9b3d22)
+![image](./images/Image9.png)
 
 The following processing stream provides processing and parameters for short-separation regression using the GLM approach, typically including four functions:
 - hmrR_Intensity2OD: converts raw data to optical density
@@ -62,7 +62,7 @@ The following processing stream provides processing and parameters for short-sep
 
   Below given image explains how the short channel effect is eliminated by changing the values of rhoSD_ssThresh
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/7cea72dc-9fc3-4079-b00c-56c1d49a5701)
+![image](./images/Image10.png)
 
 
 ## Motion artifact detection and rejection
@@ -79,7 +79,7 @@ Identifies motion artifacts in an input data matrix d. If any active data channe
 
 This image shows the motion artifact by channel with function that needed to be selected. Values are away from default to show the artifact.
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/4ab8fa17-afeb-4a19-955c-42f0c0b640f6)
+![image](./images/Image11.png)
 
 ### hmrR_StimRejection
 Excludes stims that fall within the time points identified as motion artifacts from HRF calculation.
@@ -107,7 +107,7 @@ Perform a cubic spline correction of the motion artifacts identified in tIncCh. 
 
 Spline corrections works only if the motion artifact is identified by the function. So make sure you use proper set of functions together.
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/5b18ac9b-80b4-496f-8e55-808b38bddd65)
+![image](./images/Image12.png)
 
 ### hmrR_MotionCorrectPCA
 This function uses PCA to filter only the segments of data identified as a motion artifact. The motion artifacts are indicated in the tInc vector by the value of 0.
@@ -116,7 +116,7 @@ This function uses PCA to filter only the segments of data identified as a motio
 
 This image shows the motion artifact correction using PCA filter with function that needed to be selected. 
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/2689bd49-06a8-40f1-8b63-e83ce1d2a4a0)
+![image](./images/Image13.png)
 
 
 ### hmrR_MotionCorrectPCArecurse
@@ -130,7 +130,7 @@ Identified motion artifacts in an input data matrix d. If any active data channe
 - maxIter: 5
 - turnon: 1
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/7fa4307e-27ce-4f05-9d16-58fb51eaaa4a)
+![image](./images/Image14.png)
 
 ### hmrR_MotionCorrectWavelet
 Perform a wavelet transformation of the dod data and computes the distribution of the wavelet coefficients. It sets the coefficient exceeding iqr times the interquartile range to zero because these are probably due to motion artifacts. set iqr<0 to skip this function. The algorithm follows in part the procedure described by Molavi et al.,Physiol Meas, 33, 259-270 (2012).
@@ -140,7 +140,7 @@ hmrR_PruneChannels is used to prune channels from the measurement list if their 
 - iqr=1.50
 - turnon=1
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/adcb74fc-a701-4da4-bc85-b10e7adfa72d)
+![image](./images/Image15.png)
 
 ### hmrR_MotionCorrectCbsi
 Perform a correlation-based signal improvement of the concentration changes in order to correct for motion artifacts. The algorithm follows the procedure described by Cui et al.,NeuroImage, 49(4), 3039-46 (2010).
