@@ -17,11 +17,11 @@ Note: Alternatively, you can change path to the data folder before you enter Hom
 
 9)	Once the GUI loads your data, you can see the montage, on the right side of the screen. The blue and red lines refers to the trials. The condition is marked by the color difference and legend will be given at the top.
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/3f6ae65e-03e8-4112-9465-9469eabdda5e)
+![image](./images/Image2.png)
 
 10)	By clicking the Raw data option and selecting any channel, you can visualize the raw data.
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/98686380-141f-4d17-a484-ca7d0be6c7cf)
+![image](./images/Image3.png)
 
 11)	In order to process the data, you need to build a processing stream. Processing stream consists of functions that you would like to do for your data (eg. converting in to concentration, filtering, motion correction). This is done by Click Tools -> Edit Processing Stream. Processing stream editor will be opened.
 
