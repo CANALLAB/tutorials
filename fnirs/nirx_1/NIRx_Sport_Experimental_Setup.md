@@ -45,7 +45,7 @@ Setting up the cap is important as we must understand cable management. For the 
 1) Your first job is to set up the Grommets. Take the cap, top grommet, and bottom grommet, labels, and stabilizer links. 
 2) Refer to the montage to find a location where Source 1 is mentioned. You can easily find it by checking the markings on the cap. 
 3) Follow the order shown in Figure . Insert the top grommet’s protruded part inside the hole presented by the cap, after placing the label and stabilizer link below. Hold it tight and slowly invert the cap.  
-![image](https://github.com/user-attachments/assets/5ae42d92-a6ef-4101-b7ec-c7595f201f90)
+![image](./images/Fig1.png)
 4) Take the bottom grommet and press along the bottom part of the top grommet. If you find it difficult use a plyer. You will hear a tiny pop sound that represents its fit.  
 5) Perform this step for all sources and detectors by matching them to the respective positions in the cap. You can use cap positions for mapping. 
 6) In some cases, you must use two or more handles of stabilizer links. Do not worry about it.  
