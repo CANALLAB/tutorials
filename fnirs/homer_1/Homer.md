@@ -160,15 +160,15 @@ Note: Alternatively, you can also navigate to the group folder before you enter 
 7)	Click File -> Change folder, to set the folder where your group data is available.
 8)	Once the GUI opens, you will see the current processing element section with your group data loaded.
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/5afe6556-50f7-4bf5-b291-8dc969d98290)
+![image](./images/Image16.png)
 
 9) Click the group folder in the current processing element (Preprocessing in the given image). Click Tools -> Edit Processing Stream. Processing stream editor will be opened. This processing stream has functions for group analysis. 
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/ea104d4f-3ffb-47d0-95c4-432f566b36f2)
+![image](./images/Image17.png)
 
 10) You can save this processing stream for future use by clicking Save -> Config File (future usage) and you can apply the functions on the current data processing by clicking Save ->  Current Processing stream. And close the processing stream window.
 11) Click Edit Options, to customize the functions according to your data requirements by entering the values. I have given an example of a processing stream edit window below that performed paired contrast.
 
-![image](https://github.com/CANALLAB/cbc-internal-docs/assets/146148952/55ffd2c6-4532-40d0-a31d-999a05f4cf32)
+![image](./images/Image18.png)
 
 
