@@ -53,15 +53,14 @@ Setting up the cap is important as we must understand cable management. For the 
 8) Remove the bottom grommet for the sources that have short channels pointed out. 
 9) Insert the short channels below the grommet. Refer the images below for ideal set up of short channels.
 
-![image](https://github.com/user-attachments/assets/c6df53dc-0de1-441b-9a95-9ee1c15539f9)
+![image](./images/Fig2.png)
 
-![image](https://github.com/user-attachments/assets/0a2043f1-f93b-4401-9796-6bd9a18ab7fc)
+![image](./images/Fig3.png)
 
-![image](https://github.com/user-attachments/assets/cb837b83-cb0c-480b-83dc-8ec2b66e3954)
 
 10) After attaching 8 short channels, insert some cable trees for cable management. Refer the figure for set up.
 
-![image](https://github.com/user-attachments/assets/08fcd528-ac7c-4ee8-b7a9-7cd427acb6e7)
+![image](./images/Fig4.png)
 
 11) Flip the cap and now your montage is ready. It is recommended to have a montage ready in all sizes of caps.
 
