@@ -157,7 +157,7 @@ All the below mentioned steps should be performed once you design the experiment
 10) Choose Word12 properties. Go to Task Events tab. In the Events section, click Add -> StimuliName.OffsetTime. In the below image, the trigger is set for Word12.
 11) Set the options as the same given in the image. The DigitalOffSetBit, action reset the trigger in reference with the custom values provided in the parameter section. The parameters might vary depending upon the nature of the experiment.  Click Apply.
 
-![WhatsApp Image 2024-08-21 at 9 53 30 AM](https://github.com/user-attachments/assets/9ee7dd8b-b7c7-4070-98ba-8a82e6fb7b62)
+![image](./images/Fig17.png)
 
 If you have more questions about it. Please contact akshayakirithybaskar@cmail.carleton.ca
 
