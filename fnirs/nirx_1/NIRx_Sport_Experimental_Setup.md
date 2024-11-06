@@ -69,11 +69,11 @@ Setting up the cap is important as we must understand cable management. For the 
 1) At this point, you have to take a few steps that comfort the participants. So, there is no one method, please follow the guide to take the necessary steps and you have to evolve according to your experiment.
 2) Refer to the figures below, which has the arrangement of the setup. As we are ready with the grommets. Now you must take the optodes set and spring tops and follow the order
 
-![image](https://github.com/user-attachments/assets/97d75229-a94f-4253-8199-4fd3979557d3)
+![image](./images/Fig5.png)
 
 3) Spring top holders come with different pressure levels. Refer to Figure 5 to find different labels. For thick or more hair regions please use Hard spring tops. For a no/very little hair region use zero-pressure spring tops. This varies for each participant. So, you must decide it.  
 
-![image](https://github.com/user-attachments/assets/161ae4c5-8c28-4017-9f9e-34a5157aa2b0)
+![image](./images/Fig6.png)
 
 Note: Here is an example for proper management of set up. For the montages that has optodes majorly populated on the sides of the head, you can ask the participants to make a half ponytail of hair. For montages that cover frontal, parietal or occipital it is not recommended as the ponytail will increase the thickness of the hair in those regions. You might find new tips as you evolve with your own montage. Reach out for help if you have any trouble.
 
@@ -98,26 +98,26 @@ Note: Here is an example for proper management of set up. For the montages that 
 6) Click Aurora (not Aurora API) on the desktop.
 7) Refer to Figure  for explanations of the menu
 
-![image](https://github.com/user-attachments/assets/ae2f0c56-7992-4979-9274-ea04598c2f38)
+![image](./images/Fig7.png)
 
 8) You will see the fNIRS device icon with a check mark indicating it is connected
 
-![image](https://github.com/user-attachments/assets/8eb90b91-95f3-481f-a0cc-57e4b2b692ff)
+![image](./images/Fig8.png)
 
 9) You will be navigated to the configuration screen. Select the montage.
 
-![image](https://github.com/user-attachments/assets/25017acf-066b-4f28-bad5-a2f5df2ac439)
+![image](./images/Fig9.png)
 
 10) Optimize the signals by clicking the play button.
 
-![image](https://github.com/user-attachments/assets/c3758ea5-3efd-4604-875b-5a83ca1c5d26)
+![image](./images/Fig10.png)
 
 11) Check whether all channels are green in C.V. If there are red channels, check those channels by adjusting the montage/by parting the hair.
 12) Once all the channels are green/yellow, please put the shower cap over the montage setup.
 13) Place it gently so that you don’t move around the setup.
 14) Navigate to the acquisition window.
 
-![image](https://github.com/user-attachments/assets/2f4c8633-ff64-47e2-8478-b6ebe8d3a07e)
+![image](./images/Fig11.png)
 
 15) Keep the task ready and do the necessary steps for setting up the trigger and start the data acquisition.
 16) Click red radio button to start to record data by clicking the Record button.
@@ -129,28 +129,28 @@ As of now L-NEURO Lab and CANAL Lab are working on designing tasks using E-Prime
 
 ## Eprime Trigger Set up
 All the below mentioned steps should be performed once you design the experiment in the E-Prime
-1) E-Prime trigger set up works with Chronos and NIRx adapter. The set up is given by the image below. The white cord with wire refers the trigger wire which has to be connected to the NIRx adapter and NIRx system. Chronos should be connected to the task computer. Dependind upon the task you can use Audio or Aux provisions. 
+1) E-Prime trigger set up works with Chronos and NIRx adapter. The set up is given by the image below. The white cord with wire refers the trigger wire which has to be connected to the NIRx adapter and NIRx system. Chronos should be connected to the task computer. Depending upon the task you can use Audio or Aux provisions. 
 
-![WhatsApp Image 2024-08-21 at 10 05 23 AM](https://github.com/user-attachments/assets/fe65dffc-4f10-4bc9-bff1-020579544d0b)
+![image](./images/Fig12.png)
 
 2) After you finish your initial set up, open the eprime experiment in the E-Studio. Double click the Experiment option mentioned. Refer the image.
 
-![WhatsApp Image 2024-08-21 at 9 53 29 AM](https://github.com/user-attachments/assets/94df0402-75ef-4bea-bf84-03139e41d027)
+![image](./images/Fig13.png)
 
 3) Go to the Devices tab in the window appeared. Refer the image.
 
-![WhatsApp Image 2024-08-21 at 9 53 29 AM (1)](https://github.com/user-attachments/assets/bfbc8b5a-e9d7-4d58-88af-3aeead9fb4b4)
+![image](./images/Fig14.png)
 
 4) Make sure Chronos is available and checked in. If Chronos is not seen please check the connection of chronos to the system. And click Add Device button. Refer image.
 
-![WhatsApp Image 2024-08-21 at 9 53 29 AM (2)](https://github.com/user-attachments/assets/558c46fe-a0a9-410d-8a5f-703dbd5adad1)
+![image](./images/Fig15.png)
 
 5) Select Chronos and Check it.
 6) Go to the stimuli where the trigger needs to be set and click properties. In our case its Word1.
 7) Go to Task Events tab. In the Events section, click Add -> StimuliName.OnsetTime. In the below image, the trigger is set for Word1.
 8) Set the options as the same as in the image. The DigitalOutSetBit, action sends the trigger in reference with the custom values provided in the parameter section. The parameters might vary depending upon the nature of the experiment. Click Apply.
    
-![WhatsApp Image 2024-08-21 at 9 53 29 AM (3)](https://github.com/user-attachments/assets/0591125e-b2bc-4cee-b10b-f11939babbc8)
+![image](./images/Fig16.png)
 
 9) Next we have to reset the trigger to send out a new one when again the stimuli comes in. In order to do that, you have to choose the event that occurs in the last of a trial. In the case given below, the trigger is sent out when the Word1 begins and it will be reset when Word12 begins. Our trial consist of 12 words. 
 
